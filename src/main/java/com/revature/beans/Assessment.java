@@ -1,4 +1,4 @@
-package com.revature.hydra.assessment.model;
+package com.revature.beans;
 
 import java.io.Serializable;
 import java.util.HashSet;

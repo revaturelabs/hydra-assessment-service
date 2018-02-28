@@ -5,8 +5,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.google.gson.JsonObject;
-import com.revature.hydra.assessment.model.SimpleBatch;
-import com.revature.hydra.assessment.model.SimpleCategory;
+import com.revature.beans.SimpleBatch;
+import com.revature.beans.SimpleCategory;
 
 @Service
 public class AssessmentCompositionMessagingService {

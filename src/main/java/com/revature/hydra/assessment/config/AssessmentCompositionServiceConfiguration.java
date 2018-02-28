@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.revature.hydra.assessment.repository.AssessmentRepository;
+import com.revature.hydra.assessment.data.AssessmentRepository;
 import com.revature.hydra.assessment.service.AssessmentCompositionService;
 
 @Configuration

@@ -6,13 +6,13 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.revature.hydra.assessment.model.Assessment;
-import com.revature.hydra.assessment.model.Batch;
-import com.revature.hydra.assessment.model.Category;
-import com.revature.hydra.assessment.model.SimpleAssessment;
-import com.revature.hydra.assessment.model.SimpleBatch;
-import com.revature.hydra.assessment.model.SimpleCategory;
-import com.revature.hydra.assessment.repository.AssessmentRepository;
+import com.revature.beans.Assessment;
+import com.revature.beans.Batch;
+import com.revature.beans.Category;
+import com.revature.beans.SimpleAssessment;
+import com.revature.beans.SimpleBatch;
+import com.revature.beans.SimpleCategory;
+import com.revature.hydra.assessment.data.AssessmentRepository;
 
 @Service
 public class AssessmentCompositionService {

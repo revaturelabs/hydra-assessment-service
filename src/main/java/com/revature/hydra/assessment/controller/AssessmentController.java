@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.revature.hydra.assessment.model.Assessment;
+import com.revature.beans.Assessment;
 import com.revature.hydra.assessment.service.AssessmentCompositionService;
 
 /**

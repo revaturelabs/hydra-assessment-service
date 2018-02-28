@@ -1,4 +1,4 @@
-package com.revature.hydra.assessment.repository;
+package com.revature.hydra.assessment.data;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.revature.hydra.assessment.model.SimpleAssessment;
+import com.revature.beans.SimpleAssessment;
 
 @Repository
 public interface AssessmentDAO extends JpaRepository<SimpleAssessment, Long> {

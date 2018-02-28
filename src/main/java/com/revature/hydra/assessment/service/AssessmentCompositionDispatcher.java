@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.google.gson.JsonObject;
-import com.revature.hydra.assessment.model.Assessment;
+import com.revature.beans.Assessment;
 
 @Service
 public class AssessmentCompositionDispatcher {

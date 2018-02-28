@@ -16,9 +16,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.revature.hydra.assessment.model.AssessmentType;
-import com.revature.hydra.assessment.model.SimpleAssessment;
-import com.revature.hydra.assessment.repository.AssessmentDAO;
+import com.revature.beans.AssessmentType;
+import com.revature.beans.SimpleAssessment;
+import com.revature.hydra.assessment.data.AssessmentDAO;
 
 @RunWith(SpringRunner.class)
 @DataJpaTest

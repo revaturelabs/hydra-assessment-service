@@ -1,4 +1,4 @@
-package com.revature.hydra.assessment.repository;
+package com.revature.hydra.assessment.data;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
-import com.revature.hydra.assessment.model.SimpleAssessment;
+import com.revature.beans.SimpleAssessment;
 
 @RepositoryRestResource(collectionResourceRel = "assessment", path = "assessment")
 public interface AssessmentRepository extends JpaRepository<SimpleAssessment, Long> {

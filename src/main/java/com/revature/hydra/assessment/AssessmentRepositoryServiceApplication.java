@@ -12,8 +12,8 @@ import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.revature.hydra.assessment.model.SimpleAssessment;
-import com.revature.hydra.assessment.repository.AssessmentDAO;
+import com.revature.beans.SimpleAssessment;
+import com.revature.hydra.assessment.data.AssessmentDAO;
 import com.revature.hydra.assessment.service.AssessmentCompositionService;
 
 import org.springframework.boot.SpringApplication;

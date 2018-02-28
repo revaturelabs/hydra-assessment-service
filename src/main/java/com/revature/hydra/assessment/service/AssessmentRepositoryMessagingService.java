@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.revature.hydra.assessment.model.Assessment;
-import com.revature.hydra.assessment.model.SimpleAssessment;
+import com.revature.beans.Assessment;
+import com.revature.beans.SimpleAssessment;
 
 @Service
 public class AssessmentRepositoryMessagingService {
