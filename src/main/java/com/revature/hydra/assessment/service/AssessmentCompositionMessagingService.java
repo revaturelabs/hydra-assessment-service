@@ -14,7 +14,7 @@ public class AssessmentCompositionMessagingService {
 	@Autowired
 	private AmqpTemplate rabbitTemplate;
 
-	private static final String RABBIT_REPO_EXCHANGE = "revature.caliber.repos";
+	private static final String RABBIT_REPO_EXCHANGE = "revature.hydra.repos";
 	private static final String SINGLE_BATCH_ROUTING_KEY = "XLNbCWqQzFHr9JfZ";
 	private static final String SINGLE_CATEGORY_ROUTING_KEY = "utMPxDus2M9qy9Bh";
 	private static final String SINGLE_GRADE_ROUTING_KEY = "aYF4wPtsGMjq72Lu";

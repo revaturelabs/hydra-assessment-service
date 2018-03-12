@@ -30,7 +30,7 @@ public class AssessmentRepositoryMessagingService {
 	 *            The message received from the messaging queue
 	 * @return The SimpleAssessment returned by the request dispatcher
 	 */
-	@RabbitListener(queues = "revature.caliber.repos.assessment")
+	@RabbitListener(queues = "revature.hydra.repos.assessment")
 	public SimpleAssessment receiveSingleSimpleAssessmentRequest(String message) {
 		JsonParser parser = new JsonParser();
 		JsonElement element = parser.parse(message);
@@ -47,7 +47,7 @@ public class AssessmentRepositoryMessagingService {
 	 *            The message received from the messaging queue
 	 * @return The list of SimpleAssessments returned by the request dispatcher
 	 */
-	@RabbitListener(queues = "revature.caliber.repos.assessment.list")
+	@RabbitListener(queues = "revature.hydra.repos.assessment.list")
 	public List<SimpleAssessment> receiveListSimpleAssessmentRequest(String message) {
 		JsonParser parser = new JsonParser();
 		JsonElement element = parser.parse(message);
@@ -56,7 +56,7 @@ public class AssessmentRepositoryMessagingService {
 		return assessmentRepositoryRequestDispatcher.processListSimpleAssessmentRequest(request);
 	}
 	
-	@RabbitListener(queues = "revature.caliber.service.assessment.list")
+	@RabbitListener(queues = "revature.hydra.service.assessment.list")
 //	@RabbitListener(queues = "revature.caliber.service.test.list")
 	public List<Assessment> receiveListAssessmentRequest(String message) {
 		JsonParser parser = new JsonParser();
@@ -73,7 +73,7 @@ public class AssessmentRepositoryMessagingService {
 	 *            The message received from the messaging queue
 	 * @return The Assessment returned by the request dispatcher
 	 */
-	@RabbitListener(queues = "revature.caliber.dto.assessment")
+	@RabbitListener(queues = "revature.hydra.dto.assessment")
 	public Assessment receiveAssessmentDTORequest(String message) {
 		JsonParser parser = new JsonParser();
 		JsonElement element = parser.parse(message);
