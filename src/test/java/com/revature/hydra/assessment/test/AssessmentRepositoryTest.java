@@ -1,4 +1,4 @@
-package com.revature.hydra.assessment;
+package com.revature.hydra.assessment.test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
